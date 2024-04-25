@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-25T16:43:28 GMT" name="Default suite" finished-at="2024-04-25T16:43:44 GMT" duration-ms="15217">
+    <groups>
+    </groups>
+    <test started-at="2024-04-25T16:43:28 GMT" name="Default test" finished-at="2024-04-25T16:43:44 GMT" duration-ms="15217">
+      <class name="testScripts.GooglePageTest">
+        <test-method signature="javaSearchTest()[pri:0, instance:testScripts.GooglePageTest@2cdd0d4b]" started-at="2024-04-25T16:43:28 GMT" name="javaSearchTest" finished-at="2024-04-25T16:43:44 GMT" duration-ms="15166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaSearchTest -->
+      </class> <!-- testScripts.GooglePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
