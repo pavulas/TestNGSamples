@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.PriorityOrderTest">
+      <class name="testScripts.ExtentReportsSampleTest">
         <methods>
+          <include name="initExtent"/>
+          <include name="finishExtent"/>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="SeleniumSearchTest"/>
+          <include name="seleniumSearchTest"/>
         </methods>
-      </class> <!-- testScripts.PriorityOrderTest -->
+      </class> <!-- testScripts.ExtentReportsSampleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
