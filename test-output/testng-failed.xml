@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.ExtentReportsSampleTest">
+      <class name="testScripts.DataProviderJSONTest">
         <methods>
-          <include name="initExtent"/>
-          <include name="finishExtent"/>
+          <include name="validLoginTest" invocation-numbers="1 2"/>
+          <include name="initSetup"/>
           <include name="setup"/>
-          <include name="teardown"/>
-          <include name="seleniumSearchTest"/>
         </methods>
-      </class> <!-- testScripts.ExtentReportsSampleTest -->
+      </class> <!-- testScripts.DataProviderJSONTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
