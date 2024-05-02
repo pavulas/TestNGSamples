@@ -1,77 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-30T06:41:03 GMT" name="Default suite" finished-at="2024-04-30T06:41:19 GMT" duration-ms="16184">
+  <suite started-at="2024-05-02T06:13:21 GMT" name="Default suite" finished-at="2024-05-02T06:13:35 GMT" duration-ms="14340">
     <groups>
     </groups>
-    <test started-at="2024-04-30T06:41:03 GMT" name="Default test" finished-at="2024-04-30T06:41:19 GMT" duration-ms="16184">
-      <class name="testScripts.DataProviderJSONTest">
-        <test-method is-config="true" signature="initSetup()[pri:0, instance:testScripts.DataProviderJSONTest@79da8dc5]" started-at="2024-04-30T06:41:03 GMT" name="initSetup" finished-at="2024-04-30T06:41:03 GMT" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initSetup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.DataProviderJSONTest@79da8dc5]" started-at="2024-04-30T06:41:03 GMT" name="setup" finished-at="2024-04-30T06:41:05 GMT" duration-ms="2475" status="PASS">
+    <test started-at="2024-05-02T06:13:21 GMT" name="Default test" finished-at="2024-05-02T06:13:35 GMT" duration-ms="14340">
+      <class name="testScripts.CDPTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:21 GMT" name="setup" finished-at="2024-05-02T06:13:24 GMT" duration-ms="3064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest(java.lang.String, java.lang.String)[pri:0, instance:testScripts.DataProviderJSONTest@79da8dc5]" started-at="2024-04-30T06:41:05 GMT" name="validLoginTest" data-provider="loginData" finished-at="2024-04-30T06:41:09 GMT" duration-ms="3612" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[tomsmith]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[SuperSecretPassword!]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="basicAuthTest()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:24 GMT" name="basicAuthTest" finished-at="2024-05-02T06:13:26 GMT" duration-ms="1971" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.DataProviderJSONTest@79da8dc5]" started-at="2024-04-30T06:41:09 GMT" name="setup" finished-at="2024-04-30T06:41:10 GMT" duration-ms="1474" status="PASS">
+        </test-method> <!-- basicAuthTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:26 GMT" name="setup" finished-at="2024-05-02T06:13:27 GMT" duration-ms="1137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest(java.lang.String, java.lang.String)[pri:0, instance:testScripts.DataProviderJSONTest@79da8dc5]" started-at="2024-04-30T06:41:10 GMT" name="validLoginTest" data-provider="loginData" finished-at="2024-04-30T06:41:14 GMT" duration-ms="3467" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testUser1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pranitha@25]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="captureConsoleLogTest()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:27 GMT" name="captureConsoleLogTest" finished-at="2024-05-02T06:13:29 GMT" duration-ms="1924" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.DataProviderJSONTest@79da8dc5]" started-at="2024-04-30T06:41:14 GMT" name="setup" finished-at="2024-04-30T06:41:15 GMT" duration-ms="1398" status="PASS">
+        </test-method> <!-- captureConsoleLogTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:29 GMT" name="setup" finished-at="2024-05-02T06:13:30 GMT" duration-ms="1166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest(java.lang.String, java.lang.String)[pri:0, instance:testScripts.DataProviderJSONTest@79da8dc5]" started-at="2024-04-30T06:41:15 GMT" name="validLoginTest" data-provider="loginData" finished-at="2024-04-30T06:41:19 GMT" duration-ms="3670" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[testUser2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pranitha@26]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="deviceModeTest()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:30 GMT" name="deviceModeTest" finished-at="2024-05-02T06:13:31 GMT" duration-ms="601" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-      </class> <!-- testScripts.DataProviderJSONTest -->
+        </test-method> <!-- deviceModeTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:31 GMT" name="setup" finished-at="2024-05-02T06:13:32 GMT" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="geoLocationTest()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:32 GMT" name="geoLocationTest" finished-at="2024-05-02T06:13:35 GMT" duration-ms="3255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geoLocationTest -->
+      </class> <!-- testScripts.CDPTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
