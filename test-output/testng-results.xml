@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-02T06:13:21 GMT" name="Default suite" finished-at="2024-05-02T06:13:35 GMT" duration-ms="14340">
+  <suite started-at="2024-05-02T20:56:19 IST" name="Default suite" finished-at="2024-05-02T20:56:31 IST" duration-ms="12054">
     <groups>
     </groups>
-    <test started-at="2024-05-02T06:13:21 GMT" name="Default test" finished-at="2024-05-02T06:13:35 GMT" duration-ms="14340">
-      <class name="testScripts.CDPTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:21 GMT" name="setup" finished-at="2024-05-02T06:13:24 GMT" duration-ms="3064" status="PASS">
+    <test started-at="2024-05-02T20:56:19 IST" name="Default test" finished-at="2024-05-02T20:56:31 IST" duration-ms="12054">
+      <class name="testScripts.RemoteDriverTest">
+        <test-method signature="logintest()[pri:0, instance:testScripts.RemoteDriverTest@957e06]" started-at="2024-05-02T20:56:19 IST" name="logintest" finished-at="2024-05-02T20:56:31 IST" duration-ms="12031" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="basicAuthTest()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:24 GMT" name="basicAuthTest" finished-at="2024-05-02T06:13:26 GMT" duration-ms="1971" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basicAuthTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:26 GMT" name="setup" finished-at="2024-05-02T06:13:27 GMT" duration-ms="1137" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="captureConsoleLogTest()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:27 GMT" name="captureConsoleLogTest" finished-at="2024-05-02T06:13:29 GMT" duration-ms="1924" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureConsoleLogTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:29 GMT" name="setup" finished-at="2024-05-02T06:13:30 GMT" duration-ms="1166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="deviceModeTest()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:30 GMT" name="deviceModeTest" finished-at="2024-05-02T06:13:31 GMT" duration-ms="601" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deviceModeTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:31 GMT" name="setup" finished-at="2024-05-02T06:13:32 GMT" duration-ms="1172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="geoLocationTest()[pri:0, instance:testScripts.CDPTest@1cbb87f3]" started-at="2024-05-02T06:13:32 GMT" name="geoLocationTest" finished-at="2024-05-02T06:13:35 GMT" duration-ms="3255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- geoLocationTest -->
-      </class> <!-- testScripts.CDPTest -->
+        </test-method> <!-- logintest -->
+      </class> <!-- testScripts.RemoteDriverTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
